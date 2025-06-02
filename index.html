@@ -1,68 +1,66 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PORTAFOLIO JORGE QUIÑONEZ</title>
-    <link rel="stylesheet" href="Style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portafolio Jorge Quiñonez</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="Info">
-        <H1> PORTAFOLIO DE PROYECTOS - JORGE QUIÑONEZ</H1>
-        <hr>
-        <h4> Sobre mi: Me llamo Jorge Quiñonez resido en la ciudad de San Antonio 
-            cursando actualmente la carrera de Ing Informatica en la Facultad de 
-            Nihon Gakko - Fdo de la mora <br>
-            TECNOLOGIAS: <br>
-            - Manejo sobre herramientas de base de datos como PostgreSQL <br>
-            - Lenguaje de programacion en C# y Visual Basic con los entornos .NET <br>
-            - Conocimiento de Visual Basic para ejecutarlos en una planilla de Excel <br>
-            - Manejo de herramientas de desarrollo web ccomo HTML, CSS
-        </h4>
+  <header class="hero">
+    <div class="container">
+      <h1>Portafolio de Proyectos</h1>
+      <p class="subtitle">Jorge Quiñonez</p>
     </div>
-    <hr>
-    <h2 style="text-align: center;"> PROYECTOS </h2>
-    <hr> 
-    <div class="Proyectos">
-        <div class="Proyecto1"> 
-            <H3> Sistema de inventario </H3>
-            <h2> Detalles del proyecto </h2>
-            <H2>
-                Este sistema fue diseñado específicamente para la gestión eficiente de una bodega. Cuenta con módulos de ventas, 
-                compras e inventario que permiten registrar tanto la entrada como la salida de productos disponibles en stock. 
-                La información se almacena de manera segura en una base de datos PostgreSQL, 
-                garantizando un control preciso y actualizado de los movimientos de mercancías.
-            </H2>
-            <h4> TECNOLOGIAS: Visual Basic y PostgreSQL <br>
-                 DEMOSTRACIONES: 
-                 <a href="https://github.com/Chomqg04/Bodega-En-Lo-De-Santi" target="_blank">LINK A LA SOLUCION DEL PROYECTO</a>
-            </h4>
-        </div>
-        <div class="Proyecto2"> 
-            <H3> MultiWhatsapp </H3>
-            <h2> Detalles del proyecto </h2>
-            <h2> 
-                La aplicación MultiWhatsApp fue desarrollada para abordar la necesidad de gestionar múltiples cuentas de WhatsApp de forma simultánea en entornos empresariales. 
-                Esta solución permite a empleados y empleadores utilizar diferentes instancias de WhatsApp, asignadas a distintos tipos de asistencia o áreas de trabajo, 
-                mejorando significativamente la comunicación interna y facilitando la colaboración entre equipos
-            </h2>
-            <h4> TECNOLOGIAS: C# <br>
-                 DEMOSTRACIONES: 
-                 <a href="https://drive.google.com/drive/folders/1RoQ4stjGt0uaksxemXPEtosELBeUFsrH?usp=drive_link" target="_blank">LINK A LA SOLUCION DEL PROYECTO</a>
-            </h4>
-        </div>
-        <div class="Proyecto3"> 
-            <H3> Sistema de gestion de tickets </H3>
-            
-            <h2> 
-                Sistema integral de gestión de tickets diseñado para optimizar el trabajo de equipos técnicos, 
-                comerciales y administrativos, facilitando la organización y el seguimiento eficiente de incidencias y tareas
-            </h2>
-            <h4> TECNOLOGIAS: C# y PostgreSQL <br>
-                 DEMOSTRACIONES: 
-                 <a href="https://github.com/Chomqg04/GestionDeTickets" target="_blank"> LINK A LA SOLUCION DEL PROYECTO </a>
-            </h4>
-        </div>
+  </header>
+
+  <section class="about container">
+    <h2>Sobre mí</h2>
+    <p>
+      Me llamo <strong>Jorge Quiñonez</strong>, resido en la ciudad de San Antonio y actualmente curso la carrera de Ingeniería Informática en la Facultad Nihon Gakko - Fdo. de la Mora.
+    </p>
+    <h3>Tecnologías:</h3>
+    <ul>
+      <li>PostgreSQL (bases de datos)</li>
+      <li>Lenguajes: C# y Visual Basic (.NET)</li>
+      <li>Visual Basic para Excel</li>
+      <li>Desarrollo Web: HTML y CSS</li>
+    </ul>
+  </section>
+
+  <section class="projects container">
+    <h2>Proyectos</h2>
+
+    <div class="project-card">
+      <h3>Sistema de Inventario</h3>
+      <p>
+        Sistema diseñado para la gestión eficiente de una bodega. Incluye módulos de ventas, compras e inventario. Usa PostgreSQL para asegurar el control preciso de los productos.
+      </p>
+      <p><strong>Tecnologías:</strong> Visual Basic y PostgreSQL</p>
+      <a href="https://github.com/Chomqg04/Bodega-En-Lo-De-Santi" target="_blank">Ver proyecto</a>
     </div>
+
+    <div class="project-card">
+      <h3>MultiWhatsApp</h3>
+      <p>
+        Aplicación que permite gestionar múltiples cuentas de WhatsApp simultáneamente, ideal para entornos empresariales. Mejora la comunicación interna.
+      </p>
+      <p><strong>Tecnologías:</strong> C#</p>
+      <a href="https://drive.google.com/drive/folders/1RoQ4stjGt0uaksxemXPEtosELBeUFsrH?usp=drive_link" target="_blank">Ver proyecto</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Sistema de Gestión de Tickets</h3>
+      <p>
+        Solución para organizar incidencias, tareas técnicas, comerciales y administrativas. Mejora la trazabilidad del trabajo en equipo.
+      </p>
+      <p><strong>Tecnologías:</strong> C# y PostgreSQL</p>
+      <a href="https://github.com/Chomqg04/GestionDeTickets" target="_blank">Ver proyecto</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Jorge Quiñonez - Portafolio</p>
+  </footer>
 </body>
 </html>
